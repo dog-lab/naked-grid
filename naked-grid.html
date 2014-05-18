@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Naked Grid</title>
+  <link type="text/css" rel="stylesheet" href="naked-grid.css" />
+  <style>
+body {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 2em;
+  padding: 0;
+  vertical-align: baseline;;
+}
+h3 {
+  background-color: #ddd;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  height: 3em;
+  margin: 0.5em;
+  padding-top: 0.75em;
+  text-align: center;
+}
+.outline {
+  height: 2em;
+  outline: 1px solid red;
+}
+  </style>
+</head>
+<body>
+<div class="grid">
+  <h1>naked-grid Examples</h1>
+
+  <div class="col-1-2 outline">column 1 of 2</div>
+  <div class="col-1-2 outline">column 2 of 2</div>
+  <div class="col-1-3 outline">column 1 of 3</div>
+  <div class="col-1-3 outline">column 2 of 3</div>
+  <div class="col-1-3 outline">column 3 of 3</div>
+  <div class="col-1-4 outline">column 1 of 4</div>
+  <div class="col-1-4 outline">column 2 of 4</div>
+  <div class="col-1-4 outline">column 3 of 4</div>
+  <div class="col-1-4 outline">column 4 of 4</div>
+
+  <p>
+    The above grid shows one of the simplest grid we can make:
+    Two columns in one row followed by a row of three columns.
+    Note that the red outline around each column is produced by CSS in the head of this page;
+    the naked-grid CSS is untouched. The grid below has additional "chrome" added to display another variant.
+  </p>
+
+  <div class="col-1-2"><h3>column 1 of 2</h3></div>
+  <div class="col-1-2"><h3>column 2 of 2</h3></div>
+  <div class="col-1-3"><h3>column 1 of 3</h3></div>
+  <div class="col-1-3"><h3>column 2 of 3</h3></div>
+  <div class="col-1-3"><h3>column 3 of 3</h3></div>
+  <div class="col-1-4"><h3>column 1 of 4</h3></div>
+  <div class="col-1-4"><h3>column 2 of 4</h3></div>
+  <div class="col-1-4"><h3>column 3 of 4</h3></div>
+  <div class="col-1-4"><h3>column 4 of 4</h3></div>
+
+  <p>
+    The example above is the same grid with some minimal window dressing.
+    To isolate each column I added some rounded corners, margins, and a little bit of padding to the
+    H3 tags embedded in each column. Also, the contents of each cell are highlighted
+    for your viewing pleasure.
+  </p>
+
+  <p>
+    Why have only halves (1/2), thirds (1/3), and quarters (1/4) as the only column widths to this grid? Easy,
+    This is <em>my</em> starting point and, for many things that I do, it's the best, least "weighty" way to use a
+    grid system in a lot of my projects. Of course, that default usage may change but I can easily change this
+    grid to suit those conditions as needed.
+  </p>
+</div>
+</body>
+</html>
