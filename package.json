@@ -1,5 +1,9 @@
 {
   "name": "naked-grid",
-  "main": "naked-grid.css",
+  "files": [
+    "naked-grid.css"
+  ],
+  "license": "MIT",
+  "style": "naked-grid.css",
   "version": "0.0.1"
 }
