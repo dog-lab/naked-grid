@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository" : { 
    "type" : "git",
-   "url" : "http://github.com/dog-lab/naked-grid.git"
+   "url" : "git://github.com/dog-lab/naked-grid.git"
   },
   "style": "naked-grid.css",
   "version": "0.0.1"
